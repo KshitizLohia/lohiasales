@@ -22,6 +22,7 @@ from tools import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', views.index_page, name='index_page'),
     url(r'^index$', views.index_page, name='index_page'),
     url(r'^aboutus$', views.about_page, name='about_page'),
     url(r'^blogs', views.blog_page, name='blogs'),
