@@ -59,68 +59,7 @@
 
 
 <div class="wrapper">
-  <header class="navbar container navbar-default yamm">
-    <div class="container">
-      <div class="navbar-header" style="margin: -16px 0px 0px -43px;"> <a class="logo navbar-btn" href="index" title="Home"><img src="/static/images/logo.png"> </a>
-        <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#main-nav"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <div class="visible-xs-inline-block phone-menu-outer yamm"> <span class="phone-menu collapsed" data-toggle="collapse" data-target="#phone-menu-dropdown"><i class="fa fa-phone"></i>
-<span class="glyphicon glyphicon-triangle-bottom"></span></span>
-          <div class="phone-menu-dropdown collapse" id="phone-menu-dropdown">
-            <div class="phone-menu-inner">
-              <h3><a class="invoca" href="#">(+91)9597462166</a></h3>
-              <p>Monday to Friday 9am - 9pm PST</p>
-              <p>Saturday 8am - 5pm PST</p>
-              <p>Sunday Closed</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="navbar-collapse collapse" id="main-nav">
-        <nav>
-          <ul class="menu nav navbar-nav primary">
-            <div class="navbar-inner">
-              <li class="leaf"><a href="index">Home</a> </li>
-              <li class="leaf"><a href="aboutus">About us</a></li>
-              <li class="expanded dropdown yamm-fw collapsed leaf" data-toggle="collapse" data-target="#menu-4956"><a href="#" class="parent">Products</a><i class="fa fa-angle-down"></i>
-                <ul class="collapse testr dropdown-menu" id="menu-4956">
-                  <div class="dropdown-inner">
-                    <li class="first leaf"><a href="pumps"><img src="/static/images/pumps.jpg"></a>
-                      <p><a href="pumps" class="calculator">Pumps</a></p>
-                    </li>
-                    <li class="collapsed leaf"><a href="lubricants"><img src="/static/images/lubricants.jpg"></a>
-                      <p><a href="lubricants" class="money">Industrial Lubricants</a></p>
-                    </li>
-                    <li class="collapsed leaf"><a href="pipes" ><img src="/static/images/pipes.jpg"></a>
-                      <p><a href="pipes" class="sun">Pipes</a></p>
-                    </li>
-                    <li class="last leaf"><a href="gensets" ><img src="/static/images/gensets.jpg"></a>
-                      <p><a href="gensets" class="plug">Gensets</a></p>
-                    </li>
-                  </div>
-                </ul>
-              </li>
-              <li class="expanded dropdown yamm-fw collapsed leaf" data-toggle="collapse" data-target="#menu-4961"> <a href="solar">Solar</a>
-                <ul class="collapse dropdown-menu" id="menu-4961">
-                </ul>
-              </li>
-              <li class="leaf"><a href="blogs">Blog</a></li>
-              <li class="leaf"><a href="contactus">Contact us</a></li>
-              <!--<li class="leaf"><a href="testimonial.html">testimonial</a></li>-->
-              <li class="last leaf"></li>
-            </div>
-          </ul>
-          <ul class="menu nav navbar-nav secondary">
-            <div class="navbar-inner">
-              <li class="first leaf dropdown yamm-fw contact" data-toggle="collapse" data-target="#contact-menu"> <i class="fa fa-envelope"></i> <a href="contactus" class="parent">Contact Us</a> </li>
-              <li class="leaf phone"><i class="fa fa-phone"></i> <a href="#" class="invoca">9896276612,9896276613</a></li>
-              <li class="last leaf login"> </li>
-            </div>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="bottom-shadow"></div>
-  </header>
+    {% include "header.html" %}
   <div class="main-container container">
     <header id="page-header"> </header>
     <a id="main-content"></a>
